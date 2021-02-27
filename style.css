@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Bebas Neue', cursive;
+}
+body{
+	width: 100%;
+	overflow-x: hidden;
+}
+section{
+	width: 100%;
+	height: 100vh;
+	background: rgba(72, 219, 251,0.02);
+	padding: 20px 100px;
+}
+header{
+	padding: 15px 100px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-flow: row;
+}
+header a{
+	text-decoration: none;
+	color: #000;
+	font-size: 1.2rem;
+}
+section .row{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row;
+}
+section .row .col-6{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section h2{
+	position: relative;
+	font-size: 6rem;
+	line-height: 6rem;
+	font-weight: 500;
+}
+section .imgBox{
+	position: relative;
+	width: 400px;
+	height: 100%;
+	overflow: hidden;
+}
+section .imgBox img{
+	position: relative;
+	object-fit: cover;
+	width: 100%;
+}
+section form{
+	display: flex;
+	flex-flow: column;
+	position: relative;
+}
+section form input{
+	position: relative;
+	width: 250px;
+	height: 60px;
+	border: none;
+	outline: none;
+	font-size: 1.2rem;
+}
+section form input[type="email"]{
+	border-bottom: 2px solid #000;
+	padding: 0px 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+section form input[type="submit"]{
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+}
+section .social{
+	margin-top: 15px;
+}
+section .social a{
+	text-decoration: none;
+	color: #000;
+}
+section .social i{
+	font-size: 1.6rem;
+	margin: 0px 5px;
+}
+footer{
+	background: rgba(87, 101, 116,1.0);
+	padding: 15px 0px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+}
+footer p{
+	opacity: 0.6;
+}
